@@ -72,38 +72,87 @@ EMOJIS = {"Happy": "😄", "Sad": "😢", "Angry": "😠", "Scared": "😱", "Su
 
 # ---------- QUESTION BANK BY DIFFICULTY ----------
 QUESTIONS = {
-    1: [  # Easy — obvious, explicit
-        {"en": "I just got the job I always dreamed of!", "pt": "Acabei de conseguir o emprego dos meus sonhos!", "answer": "Happy"},
-        {"en": "I can't believe you broke my favorite mug.", "pt": "Não acredito que você quebrou minha caneca favorita.", "answer": "Angry"},
-        {"en": "I miss my family so much right now.", "pt": "Estou com muita saudade da minha família agora.", "answer": "Sad"},
-        {"en": "There's someone standing outside my window at night.", "pt": "Tem alguém parado do lado de fora da minha janela à noite.", "answer": "Scared"},
-        {"en": "Wow, I did not expect that plot twist at all!", "pt": "Uau, eu não esperava essa reviravolta!", "answer": "Surprised"},
-        {"en": "I finally passed my driving test on the first try!", "pt": "Finalmente passei na prova de direção na primeira tentativa!", "answer": "Happy"},
-        {"en": "He promised he would call, and it's been three days.", "pt": "Ele prometeu que ligaria, e já se passaram três dias.", "answer": "Sad"},
+
+    1: [  # Easy — clear and obvious
+
+        {"en": "I got the best birthday present ever!", "pt": "Ganhei o melhor presente de aniversário de todos!", "answer": "Happy"},
+
+        {"en": "Someone ruined my favorite shirt.", "pt": "Alguém estragou minha camisa favorita.", "answer": "Angry"},
+
+        {"en": "I wish my best friend were here with me.", "pt": "Queria que meu melhor amigo estivesse aqui comigo.", "answer": "Sad"},
+
+        {"en": "I heard a strange noise coming from downstairs.", "pt": "Ouvi um barulho estranho vindo do andar de baixo.", "answer": "Scared"},
+
+        {"en": "Wait... you actually remembered my birthday?", "pt": "Espera... você realmente lembrou do meu aniversário?", "answer": "Surprised"},
+
+        {"en": "I can't stop smiling after hearing the good news.", "pt": "Não consigo parar de sorrir depois de ouvir a boa notícia.", "answer": "Happy"},
+
+        {"en": "Nobody came to the event like they said they would.", "pt": "Ninguém veio ao evento como disseram que viriam.", "answer": "Sad"},
+
+        {"en": "I saw a shadow moving behind the curtain.", "pt": "Vi uma sombra se mexendo atrás da cortina.", "answer": "Scared"},
+
     ],
-    2: [  # Medium — a bit more subtle
-        {"en": "You went through my phone without asking me?!", "pt": "Você mexeu no meu celular sem me perguntar?!", "answer": "Angry"},
-        {"en": "I heard footsteps behind me but no one was there.", "pt": "Ouvi passos atrás de mim, mas não tinha ninguém lá.", "answer": "Scared"},
-        {"en": "I opened the door and everyone yelled 'Surprise!'", "pt": "Abri a porta e todo mundo gritou 'Surpresa!'", "answer": "Surprised"},
-        {"en": "My hands won't stop shaking before the interview starts.", "pt": "Minhas mãos não param de tremer antes da entrevista começar.", "answer": "Anxious"},
-        {"en": "She got the promotion I've been working toward for years.", "pt": "Ela conseguiu a promoção pela qual eu venho trabalhando há anos.", "answer": "Jealous"},
-        {"en": "I should have double-checked before sending that email to the whole team.", "pt": "Eu deveria ter conferido antes de mandar aquele e-mail pra equipe toda.", "answer": "Guilty"},
+
+    2: [  # Medium — recognizable, but requires some interpretation
+
+        {"en": "You used my computer without even asking me first.", "pt": "Você usou meu computador sem nem me perguntar antes.", "answer": "Angry"},
+
+        {"en": "I kept looking at the clock while waiting for them to arrive.", "pt": "Fiquei olhando para o relógio enquanto esperava eles chegarem.", "answer": "Anxious"},
+
+        {"en": "Everyone suddenly started clapping when I walked into the room.", "pt": "Todo mundo começou a bater palmas quando entrei na sala.", "answer": "Surprised"},
+
+        {"en": "She got the award I had been hoping to win.", "pt": "Ela ganhou o prêmio que eu esperava ganhar.", "answer": "Jealous"},
+
+        {"en": "I shouldn't have said that about him. I feel terrible.", "pt": "Eu não deveria ter falado aquilo sobre ele. Estou me sentindo péssimo.", "answer": "Guilty"},
+
+        {"en": "I practiced my presentation five times, but my stomach still feels weird.", "pt": "Pratiquei minha apresentação cinco vezes, mas meu estômago ainda está estranho.", "answer": "Anxious"},
+
+        {"en": "I couldn't stop thinking about how everyone laughed when I answered.", "pt": "Não conseguia parar de pensar em como todos riram quando respondi.", "answer": "Embarrassed"},
+
+        {"en": "I couldn't believe they chose me for the team.", "pt": "Não conseguia acreditar que me escolheram para o time.", "answer": "Happy"},
+
     ],
+
     3: [  # Hard — indirect, requires inference
-        {"en": "This is the third time you've canceled on me this week.", "pt": "Essa é a terceira vez que você cancela comigo essa semana.", "answer": "Angry"},
-        {"en": "I keep checking my phone even though I know they're not going to text.", "pt": "Fico checando o celular mesmo sabendo que não vão me mandar mensagem.", "answer": "Anxious"},
-        {"en": "Everyone at the table went quiet after I mentioned it.", "pt": "Todo mundo na mesa ficou quieto depois que eu mencionei aquilo.", "answer": "Embarrassed"},
-        {"en": "I keep replaying what I said to her, wishing I could take it back.", "pt": "Fico repassando o que falei pra ela, querendo poder voltar atrás.", "answer": "Guilty"},
-        {"en": "My name was the only one they mentioned during the whole ceremony.", "pt": "Meu nome foi o único que mencionaram durante toda a cerimônia.", "answer": "Proud"},
-        {"en": "I noticed they took a photo together and didn't tag me this time.", "pt": "Percebi que eles tiraram uma foto juntos e não me marcaram dessa vez.", "answer": "Jealous"},
+
+        {"en": "I smiled when she showed me the trophy, but I suddenly became very quiet.", "pt": "Sorri quando ela me mostrou o troféu, mas de repente fiquei muito quieto.", "answer": "Jealous"},
+
+        {"en": "I typed a message, deleted it, typed another one, and checked the phone again.", "pt": "Digitei uma mensagem, apaguei, escrevi outra e olhei o celular novamente.", "answer": "Anxious"},
+
+        {"en": "Nobody said anything after my joke, so I pretended to laugh.", "pt": "Ninguém falou nada depois da minha piada, então fingi que estava rindo.", "answer": "Embarrassed"},
+
+        {"en": "I knew I shouldn't have taken it, but I did it anyway.", "pt": "Eu sabia que não deveria ter pegado, mas mesmo assim peguei.", "answer": "Guilty"},
+
+        {"en": "I didn't say much during the ceremony, but I couldn't stop smiling.", "pt": "Não falei muito durante a cerimônia, mas não conseguia parar de sorrir.", "answer": "Proud"},
+
+        {"en": "They were all invited except me. I told myself it didn't matter.", "pt": "Todos foram convidados menos eu. Disse a mim mesmo que não importava.", "answer": "Jealous"},
+
+        {"en": "I kept thinking about tomorrow even though there was nothing left to prepare.", "pt": "Fiquei pensando no dia seguinte mesmo não tendo mais nada para preparar.", "answer": "Anxious"},
+
+        {"en": "I wanted to disappear when I realized everyone had heard what I said.", "pt": "Queria desaparecer quando percebi que todos tinham ouvido o que eu disse.", "answer": "Embarrassed"},
+
     ],
-    4: [  # Expert — very subtle, tone/context-based
-        {"en": "I laughed along with everyone, then went to the bathroom for a few minutes.", "pt": "Ri junto com todo mundo, depois fui pro banheiro por uns minutos.", "answer": "Embarrassed"},
-        {"en": "I told them it was fine, then spent the night rereading the messages.", "pt": "Eu disse que estava tudo bem, mas passei a noite relendo as mensagens.", "answer": "Anxious"},
-        {"en": "I congratulated her and meant it, mostly.", "pt": "Eu a parabenizei e falei sério, quase totalmente.", "answer": "Jealous"},
-        {"en": "I kept the certificate in a drawer, but I take it out sometimes.", "pt": "Guardei o certificado numa gaveta, mas às vezes eu o pego pra olhar.", "answer": "Proud"},
-        {"en": "I said I forgot, but I remember exactly what I did that day.", "pt": "Eu disse que tinha esquecido, mas lembro exatamente o que fiz naquele dia.", "answer": "Guilty"},
+
+    4: [  # Expert — very subtle, context and tone are important
+
+        {"en": "I told everyone I was happy for him, and I really tried to mean it.", "pt": "Disse a todos que estava feliz por ele, e realmente tentei falar sério.", "answer": "Jealous"},
+
+        {"en": "I put the medal away somewhere safe, but I still look at it whenever I need motivation.", "pt": "Guardei a medalha em um lugar seguro, mas ainda olho para ela quando preciso de motivação.", "answer": "Proud"},
+
+        {"en": "I apologized before anyone even asked me what happened.", "pt": "Pedi desculpas antes mesmo de alguém perguntar o que aconteceu.", "answer": "Guilty"},
+
+        {"en": "I laughed when everyone else did, even though I wanted the conversation to end.", "pt": "Ri quando todo mundo riu, mesmo querendo que a conversa acabasse.", "answer": "Embarrassed"},
+
+        {"en": "I said 'don't worry about it,' then spent the next hour wondering if they were upset with me.", "pt": "Disse 'não se preocupe com isso', mas passei a próxima hora pensando se estavam chateados comigo.", "answer": "Anxious"},
+
+        {"en": "I wasn't expecting them to remember something I had mentioned only once.", "pt": "Eu não esperava que eles lembrassem de algo que mencionei apenas uma vez.", "answer": "Surprised"},
+
+        {"en": "I didn't tell anyone about the result, but I kept looking at it with a smile.", "pt": "Não contei a ninguém sobre o resultado, mas continuei olhando para ele com um sorriso.", "answer": "Proud"},
+
+        {"en": "I said it was no big deal, but I couldn't stop thinking about what happened.", "pt": "Disse que não era nada demais, mas não conseguia parar de pensar no que aconteceu.", "answer": "Sad"},
+
     ],
+
 }
 
 # Streak thresholds to level up
